@@ -8,6 +8,11 @@ export function MealItem(props) {
         <p className={classes.description}>{props.description}</p>
         <p className={classes.price}>{price}</p>
       </div>
+      <div>
+        <MealItemForm/>
+      </div>
     </li>
   );
 }
+
+export default MealItem;
